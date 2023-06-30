@@ -11,7 +11,7 @@ export default async function IndexPage() {
           Пройдите авторизацию чтобы получить доступ на страницу админа
         </h1>
         <LoginButton
-          botUsername="SpectrierBot"
+          botUsername="CoffeeShopTest_embersee_bot"
           onAuthCallback={(data) => {
             void signIn(
               "telegram-login",
